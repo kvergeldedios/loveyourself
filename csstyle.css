@@ -53,9 +53,9 @@ header {
 }
 
 .logo {
-	background-image: url(assets/redlogo.png);
+	background-image: url(assets/redlogop.png);
 	background-repeat: no-repeat;
-	background-size: 200px;
+	background-size: 300px;
 	background-position: left;
 	height: 100px;
 	width: 50%;
