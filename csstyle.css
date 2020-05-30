@@ -25,7 +25,12 @@ time, mark, audio, video {
 
 /*--------------HEADER/HERO----------------*/
 
-
+body {
+	width: 100%;
+	background-image: url(assets/cs.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+}
 
 header {
 	display: flex;
@@ -92,10 +97,9 @@ div ul li {
 /*--------------PERSONAL INFORMATION-------------*/
 
 .form1 {
-	background-color: orange;
-	width: 70%;
-	margin: auto;
-	margin-top: 30px;
+	width: 40%;
+	margin-left: 130px;
+	margin-top: 40px;
 }
 
 .orangebox {
@@ -237,11 +241,12 @@ input[type=text], [type=password], [type=date], select, textarea {
 	padding-bottom: 10px;
 	box-shadow: 8px 10px 14px 0px rgba(0,0,0,0.31);
 	transition: 0.5s;
-	margin: auto 20px;
+	margin: auto;
 	border: none;
 	font-size: 16px;
 	font-family: 'Muli', sans-serif;
 	font-weight: 800;
+
 }
 
 .subscribe2:hover {
@@ -406,9 +411,18 @@ input[type=text], [type=password], [type=date], select, textarea {
 	padding: 5px;
   }
 
+.form1 {
+	width: 70%
+}
 
 
 @media only screen and (max-width: 653px) {
+
+body {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 
+}
 
   #a_instruct {
   	display: none;
@@ -421,7 +435,10 @@ input[type=text], [type=password], [type=date], select, textarea {
 
 .form1 {
 	font-size: 12px;
+	width: 70%;
+	margin: auto;
 }
+
 
 .orangebox {
 	font-size: 12px;
