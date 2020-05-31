@@ -48,7 +48,7 @@ header {
 }
 
 .logo {
-	background-image: url(assets/redlogop.png);
+	background-image: url(assets/movielogo.png);
 	background-repeat: no-repeat;
 	background-size: 300px;
 	background-position: left;
@@ -361,7 +361,7 @@ input[type=text], [type=password], [type=date], select, textarea {
 }
 
   .logo {
-  	background-size: 150px;
+  	background-size: 130px;
   }
   	
 
